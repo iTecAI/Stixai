@@ -30,6 +30,9 @@ class ai:
             resp = random.choice(self.OUT)
 
         return resp
+    def update(ins, outs):
+        self.IN = ins
+        self.OUT = outs
                         
             
 def test():
